@@ -1,0 +1,11 @@
+{
+  "name": "michael-agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Motor enxuto do Michael: memoria persistente e injecao de contexto, personalidade e skills de Growth.",
+  "scripts": {
+    "check": "node --check runtime/growth.mjs && node --check runtime/memoria.mjs && node --check runtime/personalidade.mjs && node --check runtime/hook.mjs && node --check runtime/michael.mjs",
+    "test": "node --test testes/*.test.mjs"
+  }
+}

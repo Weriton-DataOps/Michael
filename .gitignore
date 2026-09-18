@@ -1,0 +1,13 @@
+# pacotes gerados por scripts/empacotar-plugin.py
+artifacts/
+
+# dependencias e caches
+node_modules/
+__pycache__/
+
+# configuracao local do Claude Code (permissoes da maquina)
+.claude/settings.local.json
+
+# sistema
+.DS_Store
+Thumbs.db

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace-manifest.json",
+  "name": "michael-hub",
+  "description": "Marketplace do Michael, agente pessoal da Iasmin",
+  "owner": {
+    "name": "Weriton - GR Group"
+  },
+  "plugins": [
+    {
+      "name": "michael",
+      "displayName": "Michael",
+      "source": "./",
+      "description": "Personalidade, skills de Growth, contexto e memoria do Michael, parceiro de growth marketing, funil e performance.",
+      "homepage": "https://github.com/Weriton-DataOps/Michael",
+      "repository": "https://github.com/Weriton-DataOps/Michael",
+      "keywords": ["michael", "growth", "funil", "performance", "personal-agent"],
+      "category": "productivity"
+    }
+  ]
+}

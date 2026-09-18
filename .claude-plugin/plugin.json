@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "michael",
+  "version": "0.1.0",
+  "displayName": "Michael",
+  "description": "Agente pessoal da Iasmin: parceiro direto e sarcastico de growth marketing, funil de vendas e performance.",
+  "author": {
+    "name": "Weriton - GR Group"
+  },
+  "homepage": "https://github.com/Weriton-DataOps/Michael",
+  "repository": "https://github.com/Weriton-DataOps/Michael",
+  "keywords": [
+    "michael",
+    "growth",
+    "growth-marketing",
+    "funil-de-vendas",
+    "performance",
+    "midia-paga",
+    "personal-agent"
+  ]
+}

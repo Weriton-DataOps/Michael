@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "michael-persona-v1",
+  "name": "Parceiro de Growth",
+  "status": "active",
+  "contract": "./michael-persona-v1.md",
+  "promotion": null,
+  "supersedes": null,
+  "channels": {
+    "plugin": "active",
+    "chat": "planned",
+    "realtime": "planned"
+  }
+}

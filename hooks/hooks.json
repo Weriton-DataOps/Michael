@@ -1,0 +1,18 @@
+{
+  "description": "Mantem a personalidade do Michael, as skills de Growth e a memoria da Iasmin presentes a cada turno.",
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node",
+            "args": ["${CLAUDE_PLUGIN_ROOT}/runtime/hook.mjs"],
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}
