@@ -17,7 +17,7 @@ def empacotar(root):
     output = root / 'artifacts' / f'michael-{version}.zip'
     output.parent.mkdir(exist_ok=True)
     files = []
-    for folder in ['.claude-plugin', 'contratos', 'hooks', 'runtime', 'skills', 'scripts', 'testes']:
+    for folder in ['.claude-plugin', 'contratos', 'hooks', 'runtime', 'skills', 'scripts', 'assets', 'testes']:
         files.extend(p for p in (root / folder).rglob('*') if p.is_file()
                      and '__pycache__' not in p.parts and not p.is_symlink())
     for name in ['package.json', 'README.md', 'CLAUDE.md', 'CHANGELOG.md',

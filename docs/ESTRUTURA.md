@@ -16,8 +16,9 @@ Não depende do Omni, da Gaia, do Overcore Studio nem do agent-skills-hub.
 | `skills/copy/` | Fórmulas, ganchos, headline/CTA, landing page, anúncios, sequências |
 | `skills/metricas/` | Unit economics, relatório semanal, árvore de veredito, coorte, planilhas |
 | `skills/conteudo/` | Pilares, calendário, formatos, reaproveitamento, SEO, métricas de conteúdo |
+| `assets/` | Capa do README (`capa.png`) |
 | `testes/` | Memória isolada, hook relocado, skills e roteamento, paridade de versão |
-| `scripts/` | Operador, comparação com remoto e empacotamento |
+| `scripts/` | Operador, comparação com remoto, empacotamento e `retrato-braille.py` (imagem P&B → rosto em braille) |
 
 Validação: `npm run check` e `npm test` (PowerShell com bloqueio de scripts: `npm.cmd`).
 Distribuição: `python scripts/empacotar-plugin.py` (gera `artifacts/michael-<versão>.zip` + sha256).
