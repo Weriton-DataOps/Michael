@@ -82,6 +82,17 @@ test('o roteamento lista as skills de dominio e a persona carrega as regras que 
   assert.ok(nucleo.includes('💡 Sugestões:'))
 })
 
+test('a abertura nao anuncia a piada nem carrega bloco de sugestoes', () => {
+  const skill = readFileSync(join(root, 'skills/michael/SKILL.md'), 'utf8')
+  const abertura = skill.slice(skill.indexOf('## Abertura'), skill.indexOf('## Como você é'))
+  const apresentacao = abertura.split('\n').filter(l => l.startsWith('>')).join('\n')
+  for (const proibido of ['relatório triste', 'depois a gente ri', 'Sugestões pra começar', 'com piada']) {
+    assert.ok(!apresentacao.includes(proibido), `abertura ainda diz "${proibido}"`)
+  }
+  assert.match(apresentacao, /E aí, Iasmin/)
+  assert.ok(lerNucleo(root).includes('NÃO ANUNCIA A PIADA'))
+})
+
 test('versão do pacote e do manifesto distribuído concordam', async () => {
   const packageJson = JSON.parse(await readFile(join(root, 'package.json'), 'utf8'))
   const manifest = JSON.parse(await readFile(join(root, '.claude-plugin/plugin.json'), 'utf8'))

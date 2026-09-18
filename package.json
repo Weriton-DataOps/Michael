@@ -1,6 +1,6 @@
 {
   "name": "michael-agent",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "type": "module",
   "description": "Motor enxuto do Michael: memoria persistente e injecao de contexto, personalidade e skills de Growth.",

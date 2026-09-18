@@ -134,7 +134,7 @@ nunca faz pull ou reset sozinho.
 
 ## Estado
 
-**v0.1.0 — nascimento.** Persona e memória persistentes, seis skills de Growth roteadas pelo hook,
+**v0.1.1 — nascimento.** Persona e memória persistentes, seis skills de Growth roteadas pelo hook,
 operador, empacotamento e testes. Estrutura em [docs/ESTRUTURA.md](docs/ESTRUTURA.md).
 
 Validação: `npm run check` e `npm test`. Pacote: `python scripts/empacotar-plugin.py`.

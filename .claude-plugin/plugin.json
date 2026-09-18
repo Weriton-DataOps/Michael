@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "michael",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "displayName": "Michael",
   "description": "Agente pessoal da Iasmin: parceiro direto e sarcastico de growth marketing, funil de vendas e performance.",
   "author": {

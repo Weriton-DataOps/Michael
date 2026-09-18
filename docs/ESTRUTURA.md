@@ -1,11 +1,11 @@
-# Michael — estrutura atual (0.1.0)
+# Michael — estrutura atual (0.1.1)
 
 Plugin Claude do Michael: persona e memória próprias; seis skills de Growth roteadas pelo hook.
 Não depende do Omni, da Gaia, do Overcore Studio nem do agent-skills-hub.
 
 | Caminho | Função |
 |---|---|
-| `.claude-plugin/` | Manifesto michael 0.1.0 e marketplace michael-hub |
+| `.claude-plugin/` | Manifesto michael 0.1.1 e marketplace michael-hub |
 | `contratos/personalidade/` | Persona canônica do Michael (`michael-persona-v1.md` + manifesto) |
 | `runtime/` | Memória, operador, persona e roteamento das skills (`growth.mjs`) |
 | `hooks/hooks.json` | UserPromptSubmit injeta persona, roteamento com caminhos instalados e memória |

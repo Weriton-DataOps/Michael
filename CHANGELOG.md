@@ -1,5 +1,11 @@
 # Changelog do Michael
 
+## 0.1.1 — 2026-09-18
+- Abertura enxuta: sem a explicação de que "vai fazer piada" e sem o bloco de sugestões na
+  apresentação — o `💡 Sugestões:` entra a partir da primeira resposta de trabalho.
+- Contrato v1 refinado antes do primeiro uso: **não anuncia a piada — faz**. Nada de "vou brincar",
+  "com humor", "depois a gente ri"; a graça está na frase, nunca no aviso.
+
 ## 0.1.0 — 2026-09-18
 - **Nascimento.** Michael, agente pessoal da Iasmin, herdando a espinha do Omni/Gaia (persona
   canônica, memória persistente, hook `UserPromptSubmit`) com alma própria: parceiro de growth,

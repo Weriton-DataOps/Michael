@@ -1,4 +1,4 @@
-# Usar o Michael 0.1.0 em outro PC
+# Usar o Michael 0.1.1 em outro PC
 
 A pasta do projeto, o repositório no GitHub e o plugin instalado são cópias diferentes.
 Alterar a pasta local não atualiza automaticamente a instalação em outro computador.
@@ -20,17 +20,17 @@ chamá-las pelo nome: o hook injeta o roteamento a cada turno e o Michael lê a 
 Pré-requisito: **Node.js** disponível no PATH (o hook e o operador rodam em Node).
 
 Para atualizar: `/plugin`, atualize `michael-hub` na aba Marketplaces e o Michael na aba Installed.
-Reinicie a sessão. A versão exibida no manifesto instalado deve ser **0.1.0**; o hook também informa
+Reinicie a sessão. A versão exibida no manifesto instalado deve ser **0.1.1**; o hook também informa
 essa versão no contexto.
 
 ## Pacote local (ZIP)
 
-Execute `python scripts/empacotar-plugin.py`. O ZIP `artifacts/michael-0.1.0.zip` contém manifesto,
+Execute `python scripts/empacotar-plugin.py`. O ZIP `artifacts/michael-0.1.1.zip` contém manifesto,
 runtime, skills, scripts, testes e docs, sem `.git` nem memória pessoal. Extraia em uma pasta nova e
 teste com:
 
 ```text
-claude --plugin-dir "C:\caminho\Michael-0.1.0"
+claude --plugin-dir "C:\caminho\Michael-0.1.1"
 ```
 
 O caminho deve apontar à pasta que contém `.claude-plugin`. Use uma sessão de teste sem outra versão
