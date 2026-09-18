@@ -12,8 +12,8 @@ No Claude Code, em qualquer projeto:
 /plugin install michael@michael-hub
 ```
 
-Reinicie a sessão para carregar o hook. Depois, `/michael` abre o Michael com o rosto e a
-apresentação; as skills de área ficam disponíveis como `michael:growth`, `michael:funil`,
+Reinicie a sessão para carregar o hook. Depois, `/michael` (nome completo: `/michael:michael`) abre o
+Michael com o rosto em braille e a apresentação — prova headless em `docs/validacao/`; as skills de área ficam disponíveis como `michael:growth`, `michael:funil`,
 `michael:performance`, `michael:copy`, `michael:metricas` e `michael:conteudo` — mas não precisa
 chamá-las pelo nome: o hook injeta o roteamento a cada turno e o Michael lê a skill certa sozinho.
 

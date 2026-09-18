@@ -16,6 +16,7 @@ Não depende do Omni, da Gaia, do Overcore Studio nem do agent-skills-hub.
 | `skills/copy/` | Fórmulas, ganchos, headline/CTA, landing page, anúncios, sequências |
 | `skills/metricas/` | Unit economics, relatório semanal, árvore de veredito, coorte, planilhas |
 | `skills/conteudo/` | Pilares, calendário, formatos, reaproveitamento, SEO, métricas de conteúdo |
+| `docs/validacao/` | Provas datadas (abertura headless com rosto, diff de fidelidade) |
 | `assets/` | Capa do README (`capa.png`) |
 | `testes/` | Memória isolada, hook relocado, skills e roteamento, paridade de versão |
 | `scripts/` | Operador, comparação com remoto, empacotamento e `retrato-braille.py` (imagem P&B → rosto em braille) |
